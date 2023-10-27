@@ -1,0 +1,10 @@
+*, ::before, ::after { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Roboto', Helvetica, sans-serif;}
+header { position: relative; z-index: 1; height: 700px; padding-top: 150px; text-align: center; }
+header .overlay { position: absolute; inset: 0; z-index: -1; background-color: #30303032; }
+header video { width: 100%; position: absolute; object-fit: cover; top: 0; left: 0; height: 100%; z-index: -2;}
+header h1 { color: #F1F1F1; font-weight: 800; font-size: 92px; text-shadow: 2px 2px 0 #111; text-transform: uppercase ;}
+.services-link { color: #eee; font-size: 20px; }
+main { padding: 0 14px; }
+main section { padding: 75px 0; max-width: 1100px; margin: 0 auto; }
+section p { line-height: 1.4rem; }
